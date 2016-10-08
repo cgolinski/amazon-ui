@@ -1,0 +1,140 @@
+body {
+	margin: 0;	
+}
+
+#topPromo a {
+	background-image: url("images/PC_1x_FUN._CB278603061_.jpg");
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	height: 55px;
+	display: block;
+	margin: 0;
+}
+
+#nav {
+	background-color: #232f3e;
+	height: 99px;
+}
+
+#nav .top {
+	position: relative;
+	padding-left: 150px;
+	padding-right: 425px;
+}
+
+#nav .top .logo {
+	top: 0px;
+	left: 0px;
+	width: 150px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	float: left;
+	background-image: url("images/global-sprite_bluebeacon-32-2x-v1._CB295592522_.png");
+	background-size: 350px auto;
+	background-repeat: no-repeat;
+	background-position: 17px -38px;
+}
+
+#nav .logo .amazon {
+	text-indent: -9999px;
+	display: block;
+}
+
+#nav .logo .prime {
+	position: absolute;
+	top: 30px;
+	left: 93px;
+	color: #48a3c6;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+	text-decoration: underline;
+
+}
+
+#nav .logo .prime:hover {
+	color: white;
+}
+
+#nav .ads {
+	position: absolute;
+	float: right;
+	top: 0px;
+	right: 0px;
+	width: 425px;
+	height: 30px;
+	background-color: lightgrey;
+	color: red;
+	font-size: 16px;
+}
+
+#nav .searchBar {
+	position: relative;
+	margin-left: 42px;
+	padding-left: 46.3438px;
+	padding-right: 45px;
+	top: 11px;
+	height: 35px;
+}
+
+#nav .searchBar .deptDropdown {
+	position: absolute;
+	float: left; 
+	top: 0px;
+	left: 0px;
+	width: 46.3438px;
+	height: 100%;
+	padding-top: 11px;
+	padding-left: 11px;
+	background-color: rgb(248, 248, 248);
+	border-right: 1px solid lightgrey;
+	box-sizing: border-box;
+	border-radius: 4px 0px 0px 4px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: grey;
+}
+
+#nav .searchBar .deptDropdown .arrow{
+	width: 0;
+	height: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 4px solid rgb(166,166,166);	
+	position: absolute;
+	top: 16px;
+	left: 29px;
+}
+
+#nav .searchBar .searchButton {
+	position: absolute;
+	float: right;
+	top: 0px;
+	right: 0px;
+	width: 45px;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	border-radius: 0px 4px 4px 0px;
+	background-color: #febd69;
+	background-image: url("images/global-sprite_bluebeacon-32-2x-v1._CB295592522_.png");
+	background-size: 350px auto;
+	background-repeat: no-repeat;
+	background-position: 5px -283px;
+}
+
+#nav .searchBar .searchField {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 35px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	background-color: white;
+
+}
+
+
