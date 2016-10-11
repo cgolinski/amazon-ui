@@ -1,5 +1,18 @@
+.Arrow {
+	width: 0;
+	height: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 4px solid rgb(166,166,166);	
+}
+
+/* Above this line is reusable classes */
+
+
 body {
 	margin: 0;	
+	font-family: Arial, sans-serif;
+	font-size: 14px;
 }
 
 #topPromo a {
@@ -96,12 +109,7 @@ body {
 	color: grey;
 }
 
-#nav .searchBar .deptDropdown .arrow{
-	width: 0;
-	height: 0;
-	border-left: 4px solid transparent;
-	border-right: 4px solid transparent;
-	border-top: 4px solid rgb(166,166,166);	
+#nav .searchBar .deptDropdown .arrow {
 	position: absolute;
 	top: 16px;
 	left: 29px;
@@ -136,5 +144,200 @@ body {
 	background-color: white;
 
 }
+
+#nav .bottom {
+	position: relative;
+	padding-left: 150px;
+	padding-right: 425px;
+	top: 10px;
+	border-top: 1px solid white;
+}
+
+#nav .bottom .left {
+	border: 1px solid red;
+	display: block;
+	position: absolute;
+	float: left;
+	top: 28px;
+	left: 25px;
+	width: 150px;
+	height: 50px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#nav .bottom .left .arrow {
+	position: absolute;
+	top: 7px;
+	left: 91px;
+}
+
+#nav .bottom .right {
+	border: 1px solid green;
+	position: absolute;
+	float: right;
+	top: 0px;
+	right: 0px;
+	width: 425px;
+	height: 51px;
+	color: red;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#nav .bottom .right ul {
+	list-style-type: none;
+}
+
+#nav .bottom .right ul .nameAccount {
+	position: absolute;
+	float: left;
+	top: 15px;
+	left: 29px;
+	text-decoration: none;
+	color: white;
+	padding: 0px;
+}
+
+#nav .bottom .right ul .nameAccount .helloName {
+	font-size: 12px;
+	font-weight: normal;
+	color: #ccc;
+	margin: 0px;
+}
+
+#nav .bottom .right ul .nameAccount .yourAccount {
+	position: relative;
+	margin: 0px;
+	top: -1px;
+}
+
+#nav .bottom .right ul .nameAccount .yourAccount .arrow {
+	position: absolute;
+	top: 7px;
+	left: 95px;
+}
+
+#nav .bottom .right ul .tryPrime {
+	position: absolute;
+	float: left;
+	top: 28px;
+	left: 155.5px;
+	text-decoration: none;
+	color: white;
+}
+
+#nav .bottom .right ul .tryPrime .arrow {
+	position: absolute;
+	top: 7px;
+	left: 68px;
+}
+
+#nav .bottom .right ul .lists {
+	position: absolute;
+	float: left;
+	top: 28px;
+	left: 255px;
+	text-decoration: none;
+	color: white;
+}
+
+#nav .bottom .right ul .lists .arrow {
+	position: absolute;
+	top: 7px;
+	left: 38px;
+}
+
+#nav .bottom .right ul .cart {
+	position: absolute;
+	float: left;
+	top: 0px;
+	left: 315px;
+	padding: 27px 0px 0px 50px;
+	text-decoration: none;
+	color: white;
+	border: 1px solid lightblue;
+}
+
+#nav .bottom .right ul .cart .cartImg {
+	position: absolute;
+	float: left;
+	width: 48px;
+	height: 50px;
+	top: 0px;
+	left: 0px;
+	padding: 0px 0px 0px 0px;
+	background-image: url("images/global-sprite_bluebeacon-32-2x-v1._CB295592522_.png");
+	background-size: 350px auto;
+	background-repeat: no-repeat;
+	background-position: -2px -324px;
+
+}
+
+#nav .bottom .right ul .cart .cartCount {
+	position: absolute;
+	float: left;
+	width: 48px;
+	height: 50px;
+	top: 11px;
+	left: 26px;
+	padding: 0px 0px 0px 0px;
+	font-size: 16px;
+	color: #f08804;
+}
+
+#nav .bottom .middle {
+	border: 1px solid white;
+	position: relative;
+	margin-left: 42px;
+	padding-left: 46.3438px;
+	padding-right: 45px;
+	top: 11px;
+	height: 35px;
+}
+
+#nav .bottom .middle a {
+	text-decoration: none;
+	position: relative;
+	top: 15px;
+	font-size: 13px;
+	font-weight: normal;
+	color: #ccc;
+}
+
+#nav .bottom .middle .history {
+	left: -37.5px;
+}
+
+#nav .bottom .middle .history .arrow {
+	position: relative;
+	top: 10px;
+	left: 2px;
+}
+
+#nav .bottom .middle .myAmazon {
+
+}
+
+#nav .bottom .middle .deals {
+
+}
+
+#nav .bottom .middle .registry {
+
+}
+
+#nav .bottom .middle .sell {
+
+}
+
+#nav .bottom .middle .help {
+
+}
+
+
+
+
 
 
