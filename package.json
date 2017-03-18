@@ -1,0 +1,20 @@
+{
+  "name": "amazon-ui",
+  "version": "1.0.0",
+  "description": "My attempt at building Amazon's homepage in CSS.",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgolinski/amazon-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgolinski/amazon-ui/issues"
+  },
+  "homepage": "https://github.com/cgolinski/amazon-ui#readme"
+}
