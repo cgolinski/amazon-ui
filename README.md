@@ -1,6 +1,6 @@
 # css-amazon
 
-My attempt at building Amazon's homepage in CSS. Work in progress.
+Reimplementation of Amazon.com homepage UI. Work in progress.
 
 ## Getting Started
 
