@@ -9,12 +9,12 @@
 
 	<body>
 		<header>
-			<!-- top banner promo -->
+			<!-- top banner promo - not needed in logged out homepage
 			<div id="topPromo">
 				<a href="https://www.amazon.com/stream/ref=nav_upnav_LargeImage_Gateway">
 					New &amp; Interesting Finds on Amazon
 				</a>
-			</div>
+			</div> -->
 			<section id="nav">
 				<div class="top">
 					<div class="logo">
@@ -52,30 +52,35 @@
 							</li>
 						</ul>
 					</div>
-					<!-- <div class="right">
+					<div class="right">
 						<ul>
-							<li>
-								<a class="nameAccount" href="https://www.amazon.com/gp/css/homepage.html/ref=nav_youraccount_btn">
-									<p class="helloName">
-										Hello, Name
+							<li class=language>
+								<a class="ArrowMixin" href="https://www.amazon.com/gp/css/homepage.html/ref=nav_youraccount_btn">
+									<span class="languageCode">
+										EN
+									</span>
+									<span class="globeImg">
+									</span>
+								</a>	
+							</li>
+							<li class=helloAccount>
+								<a class="ArrowMixin" href="https://www.amazon.com/gp/css/homepage.html/ref=nav_youraccount_btn">
+									<p class="hello">
+										Hello. Sign in
 									</p>
-									<p class="yourAccount">
-									  Your Account 
-										<span class="Arrow arrow"> 
-										</span>
+									<p class="account">
+									  Account &amp; Lists 
 									</p>
 								</a>	
 							</li>
-							<li>
+							<!-- <li class="orders">
+								<a class="ArrowMixin" href="https://www.amazon.com/gp/registry/wishlist/ref=nav_wishlist_btn">
+									Orders
+								</a>
+							</li> -->
+							<!-- <li>
 								<a class="tryPrime" href="https://www.amazon.com/gp/product/B00DBYBNEE/ref=nav_prime_try_btn">
 									Try Prime
-									<span class="Arrow arrow"> 
-									</span>
-								</a>
-							</li>
-							<li>
-								<a class="lists" href="https://www.amazon.com/gp/registry/wishlist/ref=nav_wishlist_btn">
-									Lists
 									<span class="Arrow arrow"> 
 									</span>
 								</a>
@@ -89,19 +94,21 @@
 									</span>
 									Cart
 								</a>
-							</li>
+							</li> -->
 						</ul>
-					</div> -->
+					</div>
 					<div class="middle">
 						<ul>
+							<!-- not needed in logged out homepage
 							<li class="history">
 								<a class="ArrowMixin" href="https://www.amazon.com/gp/history/ref=nav_nav_timeline_view_history">
-									Browsing History<!--<span class="Arrow arrow"></span>-->
+									Browsing History
 								</a>
 							</li>
+							-->
 							<li>
 								<a class="myAmazon" href="https://www.amazon.com/gp/yourstore/home/ref=nav_cs_ys">
-									MyName's Amazon.com
+									Your Amazon.com
 								</a>
 							</li>
 							<li>	
@@ -117,6 +124,11 @@
 							<li>	
 								<a class="sell" href="https://www.amazon.com/b/ref=nav_cs_sell?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011">
 									Sell
+								</a>
+							</li>
+							<li>	
+								<a class="help" href="https://www.amazon.com/gp/help/customer/display.html/ref=nav_cs_help?ie=UTF8&nodeId=508510">
+									Help
 								</a>
 							</li>
 						</ul>	

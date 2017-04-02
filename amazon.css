@@ -1,3 +1,9 @@
+ul, ol, dl, li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
 .Arrow {
 	width: 0;
 	height: 0;
@@ -20,6 +26,8 @@
 	border-right: 4px solid transparent;
 	border-top: 4px solid rgb(166,166,166);
 	position: absolute;
+	bottom: 8px;
+	right: -3px;
 }
 
 /* Above this line is reusable classes */
@@ -30,15 +38,16 @@ body {
 	font-family: Arial, sans-serif;
 	font-size: 14px;
 }
-
-#topPromo a {
+/*
+div#topPromo a {
 	background-image: url("images/PC_1x_FUN._CB278603061_.jpg");
 	background-repeat: no-repeat;
 	text-indent: -9999px;
 	height: 55px;
 	display: block;
 	margin: 0;
-}
+} 
+*/
 
 #nav {
 	background-color: #232f3e;
@@ -47,7 +56,7 @@ body {
 
 #nav .top {
 	position: relative;
-	padding: 11px 425px 11px 150px;
+	padding: 11px 425px 6px 150px;
 }
 
 #nav .top .logo {
@@ -112,7 +121,7 @@ body {
 	height: 100%;
 	padding-top: 11px;
 	padding-left: 11px;
-	background-color: rgb(248, 248, 248);
+	background-color: #f3f3f3;
 	border-right: 1px solid lightgrey;
 	box-sizing: border-box;
 	border-radius: 4px 0px 0px 4px;
@@ -170,17 +179,14 @@ body {
 	display: block;
 	position: absolute;
 	float: left;
-	top: 24px;
+	bottom: 0px;
 	left: 25px;
 	width: 393px;
-	height: 50px;
+	/*height: 50px;*/
 	color: white;
 	text-decoration: none;
 	font-size: 18px;
-}
-
-#nav .bottom .left ul {
-	list-style-type: none;
+	padding: 0px 0px 26px 0px;
 }
 
 #nav .bottom .left ul li.departments {
@@ -212,98 +218,129 @@ body {
 #nav .bottom .right {
 	/*border: 1px solid green;*/
 	position: absolute;
-	float: right;
 	top: 0px;
 	right: 0px;
-	width: 425px;
-	height: 51px;
 	color: red;
 	font-size: 14px;
 	font-weight: bold;
 }
 
-#nav .bottom .right ul {
-	list-style-type: none;
+#nav .bottom .right ul li {
+	padding: 0 10px;
+	display: inline-block;
+	vertical-align: bottom;
 }
 
-#nav .bottom .right ul .nameAccount {
-	position: absolute;
-	float: left;
-	top: 15px;
-	left: 29px;
-	text-decoration: none;
+#nav .bottom .right ul li.language {
 	color: white;
 	padding: 0px;
 }
 
-#nav .bottom .right ul .nameAccount .helloName {
+#nav .bottom .right ul li.nameAccount {
+	/*top: 15px;
+	left: 29px;*/
+	color: white;
+	padding: 0px;
+}
+
+#nav .bottom .right ul li a {
+	border: 1px solid transparent;
+	border-radius: 3px;
+	display: block;
+	padding: 10px 10px 3px 10px;
+}
+
+#nav .bottom .right ul li a:hover {
+	border-color: #4f5965;
+}
+
+#nav .bottom .right ul li.language a {
+	text-decoration: none;
+	color: #ccc;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+#nav .bottom .right ul li.language a span.languageCode {
+	display: block;
+}
+
+#nav .bottom .right ul li.language a span.globeImg {
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	display: block;
+	
+	background-image: url("images/InternationalCustomerPreferencesNavDesktopAssets-icp_sprite-6b737a23dc2fdf9eef2fe592c2f05017215df7e7._V2_.png");
+	background-color: red; /*temp*/
+	background-size: 150px auto;
+	background-repeat: no-repeat;
+	background-position: -81px -25px;
+}
+
+#nav .bottom .right ul li.helloAccount a {
+	text-decoration: none;
+	color: white;
+}
+
+
+#nav .bottom .right ul li.helloAccount a p.hello {
 	font-size: 12px;
 	font-weight: normal;
 	color: #ccc;
 	margin: 0px;
 }
 
-#nav .bottom .right ul .nameAccount .yourAccount {
+#nav .bottom .right ul li.helloAccount a p.account {
 	position: relative;
 	margin: 0px;
 	top: -1px;
 }
 
-#nav .bottom .right ul .nameAccount .yourAccount .arrow {
-	position: absolute;
-	top: 7px;
-	left: 95px;
-}
-
-#nav .bottom .right ul .tryPrime {
-	position: absolute;
+#nav .bottom .right ul li a.tryPrime {
+	/*position: absolute;
 	float: left;
 	top: 28px;
-	left: 155.5px;
+	left: 155.5px;*/
 	text-decoration: none;
 	color: white;
 }
 
-#nav .bottom .right ul .tryPrime .arrow {
+#nav .bottom .right ul li a.tryPrime .arrow {
 	position: absolute;
 	top: 7px;
 	left: 68px;
 }
 
-#nav .bottom .right ul .lists {
-	position: absolute;
+#nav .bottom .right ul li a.orders {
+	/*position: absolute;
 	float: left;
 	top: 28px;
-	left: 255px;
+	left: 255px;*/
 	text-decoration: none;
 	color: white;
 }
 
-#nav .bottom .right ul .lists .arrow {
-	position: absolute;
-	top: 7px;
-	left: 38px;
-}
-
-#nav .bottom .right ul .cart {
-	position: absolute;
+#nav .bottom .right ul li a.cart {
+	/*position: absolute;
 	float: left;
 	top: 0px;
-	left: 315px;
+	left: 315px;*/
+	position: relative;
 	padding: 27px 0px 0px 50px;
 	text-decoration: none;
 	color: white;
 	/*border: 1px solid lightblue;*/
 }
 
-#nav .bottom .right ul .cart .cartImg {
+#nav .bottom .right ul li a.cart .cartImg {
 	position: absolute;
 	float: left;
 	width: 48px;
 	height: 50px;
 	top: 0px;
 	left: 0px;
-	padding: 0px 0px 0px 0px;
+	padding: 0;
 	background-image: url("images/global-sprite_bluebeacon-32-2x-v1._CB295592522_.png");
 	background-size: 350px auto;
 	background-repeat: no-repeat;
@@ -311,14 +348,14 @@ body {
 
 }
 
-#nav .bottom .right ul .cart .cartCount {
+#nav .bottom .right ul li a.cart .cartCount {
 	position: absolute;
 	float: left;
 	width: 48px;
 	height: 50px;
 	top: 11px;
 	left: 26px;
-	padding: 0px 0px 0px 0px;
+	padding: 0;
 	font-size: 16px;
 	color: #f08804;
 }
@@ -326,31 +363,24 @@ body {
 #nav .bottom .middle {
 	/*border: 1px solid white;*/
 	position: relative;
-	padding: 16px 45px 26px 40px;
+	padding: 21px 45px 26px 42px;
 	top: 1px;
 	/*height: 35px;*/
-	height: 42px;
+	height: 47px;
 	overflow: hidden;
 	box-sizing: border-box;
 }
 
-#nav .bottom .middle ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
 #nav .bottom .middle ul li {
 	float: left;
-	margin: 0;
-	padding: 0;
 	margin-bottom: 10px;
 }
-
+/*
 #nav .bottom .middle ul li.history {
 	left: 2px;
 	position: relative;
 }
+*/
 
 #nav .bottom .middle ul li a {
 	text-decoration: none;
@@ -369,6 +399,7 @@ body {
 	padding-left: 0;
 }
 
+/*
 #nav .bottom .middle ul li.history a.ArrowMixin {
 	padding-right: 21px;
 }
@@ -377,6 +408,7 @@ body {
 	top: 6px;
 	right: 8px;
 }
+*/
 
 #nav .bottom .middle ul li a.myAmazon {
 
@@ -394,6 +426,9 @@ body {
 
 }
 
+#nav .bottom .middle ul li a.help {
+
+}
 
 
 
