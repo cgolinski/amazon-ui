@@ -169,7 +169,7 @@ div#topPromo a {
 #nav .bottom {
 	position: relative;
 	padding-left: 150px;
-	padding-right: 425px;
+	padding-right: 525px;
 	top: 0px;
 	/*border-top: 1px solid white;*/
 }
@@ -178,10 +178,9 @@ div#topPromo a {
 	/*border: 1px solid red;*/
 	display: block;
 	position: absolute;
-	float: left;
 	bottom: 0px;
 	left: 25px;
-	width: 393px;
+	width: 155px;
 	/*height: 50px;*/
 	color: white;
 	text-decoration: none;
@@ -261,11 +260,16 @@ div#topPromo a {
 	font-size: 12px;
 }
 
-#nav .bottom .right ul li.language a span.languageCode {
+#nav .bottom .right ul li.language a div.ArrowMixin {
+	padding-right: 10px;
+	display: inline-block;
+}
+
+#nav .bottom .right ul li.language a div span.languageCode {
 	display: block;
 }
 
-#nav .bottom .right ul li.language a span.globeImg {
+#nav .bottom .right ul li.language a div span.globeImg {
 	width: 16px;
 	height: 16px;
 	padding: 0;
@@ -276,6 +280,15 @@ div#topPromo a {
 	background-size: 150px auto;
 	background-repeat: no-repeat;
 	background-position: -81px -25px;
+}
+
+#nav .bottom .right ul li.language a span.verticalBar{
+	height: 29px;
+	width: 1px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	border-right: 1px solid #555;
+	display: inline-block;
 }
 
 #nav .bottom .right ul li.helloAccount a {
@@ -297,22 +310,7 @@ div#topPromo a {
 	top: -1px;
 }
 
-#nav .bottom .right ul li a.tryPrime {
-	/*position: absolute;
-	float: left;
-	top: 28px;
-	left: 155.5px;*/
-	text-decoration: none;
-	color: white;
-}
-
-#nav .bottom .right ul li a.tryPrime .arrow {
-	position: absolute;
-	top: 7px;
-	left: 68px;
-}
-
-#nav .bottom .right ul li a.orders {
+#nav .bottom .right ul li.orders a {
 	/*position: absolute;
 	float: left;
 	top: 28px;
@@ -321,7 +319,16 @@ div#topPromo a {
 	color: white;
 }
 
-#nav .bottom .right ul li a.cart {
+#nav .bottom .right ul li.tryPrime a {
+	/*position: absolute;
+	float: left;
+	top: 28px;
+	left: 155.5px;*/
+	text-decoration: none;
+	color: white;
+}
+
+#nav .bottom .right ul li.cart a {
 	/*position: absolute;
 	float: left;
 	top: 0px;
@@ -333,7 +340,7 @@ div#topPromo a {
 	/*border: 1px solid lightblue;*/
 }
 
-#nav .bottom .right ul li a.cart .cartImg {
+#nav .bottom .right ul li.cart a .cartImg {
 	position: absolute;
 	float: left;
 	width: 48px;
@@ -348,7 +355,7 @@ div#topPromo a {
 
 }
 
-#nav .bottom .right ul li a.cart .cartCount {
+#nav .bottom .right ul li.cart a .cartCount {
 	position: absolute;
 	float: left;
 	width: 48px;
